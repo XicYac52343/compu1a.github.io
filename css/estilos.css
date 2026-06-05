@@ -1,0 +1,58 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+}
+footer{
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#servicios, #porque-compu1a, #nosotros, #contacto{
+    scroll-margin-top: 80px;
+}
+
+.textPrimary {
+    color: #333333;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.foto1 {
+    border-radius: 10px;
+}
+
+    
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.info-box {
+    background: #f1f1f1;
+    padding: 15px 20px;
+    border-radius: 12px;
+
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.281);
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.barraNav:active{
+    color:rgb(219, 219, 219) !important;
+}
+
+.barraNav:hover{
+    color: #838383;
+}
+
+@media (max-width: 414px){
+    .principal{
+        margin-top:100px !important;
+    }
+}
